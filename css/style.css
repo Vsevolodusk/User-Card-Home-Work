@@ -40,14 +40,13 @@ body {
 .user_information {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 .follow_button {
   height: 57px;
   width: 172px;
   background-color: #308fe3;
   border-radius: 10px;
-  gap: 10px;
   font-size: 20px;
   border: 1px solid #0f84ab;
   box-shadow: -2px 2px 2px #000, -3px 3px 3px#000, -4px 4px 4px #000;
@@ -64,6 +63,7 @@ body {
   align-items: center;
   justify-content: center;
   color: #fff;
+  gap:10px;
 }
 .user_name {
   font-size: 26px;
@@ -101,10 +101,10 @@ body {
   border: none;
 }
 .profile_statistic_numbers {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 .number_description {
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
 }
 /* ================================= Comment Container =============================*/
